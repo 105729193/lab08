@@ -10,7 +10,7 @@ if (!isset($_SESSION['user'])) {
 include 'header.inc';
 ?>
 
-<h1>Welcome</h1>
+<h1>Welcome Page</h1>
 <p>Welcome, <?php echo $_SESSION['user']; ?>!</p>
 
 <?php include 'footer.inc'; ?>
