@@ -1,6 +1,6 @@
 <?php include 'header.inc'; ?>
 
-<h2>Login Form</h2>
+<h1>Login Form</h1>
 <form method="post" action="process.php">
     <label for="username">Username:</label>
     <input type="text" name="username" id="username" required><br><br>
